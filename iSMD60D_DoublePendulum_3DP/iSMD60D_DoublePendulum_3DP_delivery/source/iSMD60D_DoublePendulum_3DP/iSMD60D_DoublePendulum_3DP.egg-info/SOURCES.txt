@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+iSMD60D_DoublePendulum_3DP/__init__.py
+iSMD60D_DoublePendulum_3DP/ui_extension_example.py
+iSMD60D_DoublePendulum_3DP.egg-info/PKG-INFO
+iSMD60D_DoublePendulum_3DP.egg-info/SOURCES.txt
+iSMD60D_DoublePendulum_3DP.egg-info/dependency_links.txt
+iSMD60D_DoublePendulum_3DP.egg-info/not-zip-safe
+iSMD60D_DoublePendulum_3DP.egg-info/requires.txt
+iSMD60D_DoublePendulum_3DP.egg-info/top_level.txt
