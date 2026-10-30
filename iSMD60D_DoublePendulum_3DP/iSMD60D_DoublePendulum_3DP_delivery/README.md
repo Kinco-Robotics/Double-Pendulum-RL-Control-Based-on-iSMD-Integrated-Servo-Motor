@@ -12,14 +12,20 @@
 
 ## Project Overview
 
-This project implements a double-pendulum balancing and swing-up task based on an **iSMD integrated servo motor**. Demonstration videos are available in the [Media/](../Media/) folder. The system has **two degrees of freedom (upper-arm angle, lower-arm angle) but only one actuator**, making it a typical **underactuated system**:
+This project implements a double-pendulum balancing and swing-up task based on an **iSMD integrated servo motor**.
 
-| Joint | Actuation |
+![Double pendulum swing-up and balance](../Media/Swing-up%20and%20Balancing.gif)
+
+The system has **two degrees of freedom (upper-arm angle, lower-arm angle) but only one actuator**, making it a typical **underactuated system**:
+
+| Link | Actuation |
 |---|---|
 | **Lower arm** | **Directly driven** by the iSMD motor (only actuator) |
 | **Upper arm** | **No independent actuation** — moves via dynamic coupling torque from the lower arm and gravity torque |
 
-**Current capabilities**: The double-pendulum system achieves **swing-up and balancing**; the upper arm can swing up from the downward position to the upright position, and swing/maintain balance near the upright position. More features will be developed on this platform.
+![Double pendulum arm kit: upper arm connected by a pin without a motor, lower arm driven by the motor](models/hardware-overview.jpg)
+
+**Current capabilities**: The double-pendulum system achieves autonomous swing-up and balancing, bringing both arms upright and keeping them balanced there. More features will be developed on this platform.
 
 **Closed-loop tech stack**:
 
